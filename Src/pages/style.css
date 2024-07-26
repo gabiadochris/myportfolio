@@ -1,0 +1,71 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+.scroll {
+  background-color: black;
+}
+
+body {
+  background-color: black;
+}
+.logo {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.offcanvas_btn {
+  display: flex;
+  justify-content: end;
+  /* align-self: top; */
+}
+.hero_wrapper {
+  /* margin-top: 1em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 18%; */
+}
+.hero_text {
+  font-size: 7.4em;
+  font-weight: 900;
+  font-family: monospace;
+  line-height: 0.7em;
+}
+.hero_text::selection {
+  color: rgb(9, 255, 0);
+}
+.hero_text_sm {
+  font-size: 3.9em;
+  font-weight: bolder;
+  font-family: monospace;
+  line-height: 0.8em;
+}
+.bi {
+  transition: width 2s, height 4s;
+  transform: rotate(20deg);
+}
+.bi:hover {
+  transform: rotate(30deg);
+  width: 70px;
+  height: 70px;
+}
+.skill_text {
+  font-size: 4em;
+  font-weight: 900;
+  line-height: 0.8em;
+}
+.skills_text {
+  font-size: 1.9em;
+  font-weight: 900;
+}
+.skills_text:hover {
+  font-size: 2em;
+}
+.exp_text {
+  color: rgb(153, 147, 147);
+  font-weight: bold;
+  margin-bottom: 2.6em;
+}
