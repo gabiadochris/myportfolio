@@ -83,3 +83,6 @@ body {
   width: 10px;
   height: 10px;
 }
+.card {
+  background-color: black;
+}
